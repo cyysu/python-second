@@ -1,0 +1,40 @@
+1. MongoDB的单个实例可以容纳多个独立的数据库，每一个都有自己的集合和权限，不同的数据库也放置在不同的文件中。
+"show dbs" 命令可以显示所有数据的列表。
+
+2. 执行 "db" 命令可以显示当前数据库对象或集合。
+
+3. 运行"use"命令，可以连接到一个指定的数据库。
+
+4. 数据库也通过名字来标识。数据库名可以是满足以下条件的任意UTF-8字符串。
+不能是空字符串（"")。
+不得含有' '（空格)、.、$、/、\和\0 (空宇符)。
+应全部小写。
+最多64字节。
+
+5. 如果想创建一个数据库名称 <mydb>, 那么 use DATABASE 语句如下：
+
+6. MongoDB db.dropDatabase() 命令是用来删除一个现有的数据库。
+
+7. MongoDB db.createCollection(name, options) 是用来创建集合.
+
+8. db.yiibai.insert({"name" : "yiibai"})
+    其中 yiibai 表示的是 集合的名称 插入数据的时候自动创建集合
+
+9. MongoDB 的 db.collection.drop() 是用来从数据库中删除一个集合。
+
+10. db.xx_Collections.insert({})
+
+    其中xx_Collections 表示的是 集合  也就是 表table
+
+    集合中的数据相当于是SQL中的ROW  SQL中的colomn相当于field
+    Mongodb 主动将 ID 设置为主键
+
+11.
+
+
+
+
+
+
+
+
